@@ -10,22 +10,22 @@ const currentStatus = document.querySelector(".status");
 
 let apiKey = "c2ee8017d562bb6b49e77d514f8e251c";
 
-window.addEventListener("load", function () {
-  let long;
-  let lat;
+// window.addEventListener("load", function () {
+//   let long;
+//   let lat;
 
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition((position) => {
-      long = position.coords.longitude;
-      lat = position.coords.latitude;
-    });
-  }
-  const api1 = `api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiKey}`;
+//   if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition((position) => {
+//       long = position.coords.longitude;
+//       lat = position.coords.latitude;
+//     });
+//   }
+//   const api1 = `api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiKey}`;
 
-  fetch(api1)
-    .then((response1) => response1.json())
-    .then((result1) => console.log(result1));
-});
+//   fetch(api1)
+//     .then((response1) => response1.json())
+//     .then((result1) => console.log(result1));
+// });
 
 
 
