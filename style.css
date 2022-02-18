@@ -77,6 +77,7 @@
 }
 
 .submit {
+  cursor: pointer;
   font-family: "Spline Sans", sans-serif;
   font-size: 25px;
   font-weight: 520;
