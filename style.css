@@ -125,7 +125,7 @@
 
   @media only screen and (max-width: 600px){
     .background img {
-      display:blo;
+      /* display:blo; */
       
     }
     .app {
@@ -178,14 +178,7 @@
       font-size: 20px;
       border-bottom: 1px solid white;
     }
-    ::placeholder {
-      /* Chrome, Firefox, Opera, Safari 10.1+ */
-      font-weight: 300;
-    
-      color: rgb(255, 255, 255);
-      opacity: 0.7; /* Firefox */
-    }
-    
+  
     
     .submit {
       cursor: pointer;
