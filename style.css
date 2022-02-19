@@ -17,6 +17,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding-top: 25vh;
+  /* flex-wrap: wrap; */
 }
 
 .input-box {
@@ -121,6 +122,131 @@
       color: white;
       font-family: "Spline Sans", sans-serif;
   }
+
+  @media only screen and (max-width: 600px){
+    .background img {
+      display:block;
+      
+    }
+    .app {
+      display: grid;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      width: 100%;
+      /* flex-wrap: wrap; */
+    }
+    .input-box {
+      background: rgba(196, 196, 196, 0.2);
+      border: 2px solid #ffffff;
+      backdrop-filter: blur(23px);
+      /* Note: backdrop-filter has minimal browser support */
+    
+      border-radius: 44px;
+      padding: 1.5rem;
+    }
+    
+    .weather-app {
+      font-family: "Spline Sans", sans-serif;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 500;
+      /* text-align: center; */
+      margin-right: 1.5rem;
+    }
+    
+    .status {
+      font-family: "Spline Sans", sans-serif;
+      font-size: 10px;
+      color: white;
+      font-weight: 200;
+      margin-top: 1.5rem;
+      /* text-align: center; */
+      margin-bottom: 1.5rem;
+    }
+    
+    .input {
+      width: 100%;
+      font-family: "Spline Sans", sans-serif;
+      display: block;
+      border: none;
+      background: none;
+      outline: none;
+      color: white;
+      font-size: 20px;
+      border-bottom: 1px solid white;
+    }
+    ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      font-weight: 300;
+    
+      color: rgb(255, 255, 255);
+      opacity: 0.7; /* Firefox */
+    }
+    
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: rgb(255, 255, 255);
+    }
+    
+    ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: rgb(255, 255, 255);
+    }
+    
+    .submit {
+      cursor: pointer;
+      font-family: "Spline Sans", sans-serif;
+      font-size: 21px;
+      font-weight: 520;
+      padding:7px 20px;
+      margin-top: 1rem;
+      border-radius: 10px;
+      border: none;
+    }
+    
+    .display-box{
+        background: rgba(196, 196, 196, 0.2);
+        border: 2px solid #ffffff;
+        backdrop-filter: blur(23px);
+        /* Note: backdrop-filter has minimal browser support */
+      
+        border-radius: 44px;
+        padding: 2rem;
+        margin-top: 5vh;
+      }
+    
+      .city{
+        font-family: "Spline Sans", sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 500;
+        margin-right: 3rem;
+      }
+    
+      .temp{
+        font-family: "Spline Sans", sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 550;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+      }
+    
+      .feels-like{
+        font-size: 15px;
+          color: white;
+          font-family: "Spline Sans", sans-serif;
+      }
+  }
+
+
+
 
 /* font-family: 'Be Vietnam Pro', sans-serif;
 font-family: 'Bebas Neue', cursive;
