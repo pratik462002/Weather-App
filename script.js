@@ -36,7 +36,7 @@ submit.addEventListener("click", function () {
     console.log(input.value);
     requestApi(input.value);
   } else {
-    window.alert("Add your City Currenctly..");
+    window.alert("Add your City Correctly..");
     input.value = "";
   }
 });
