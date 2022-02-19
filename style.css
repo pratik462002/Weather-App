@@ -125,7 +125,7 @@
 
   @media only screen and (max-width: 600px){
     .background img {
-      display:block;
+      display:blo;
       
     }
     .app {
@@ -186,15 +186,6 @@
       opacity: 0.7; /* Firefox */
     }
     
-    :-ms-input-placeholder {
-      /* Internet Explorer 10-11 */
-      color: rgb(255, 255, 255);
-    }
-    
-    ::-ms-input-placeholder {
-      /* Microsoft Edge */
-      color: rgb(255, 255, 255);
-    }
     
     .submit {
       cursor: pointer;
